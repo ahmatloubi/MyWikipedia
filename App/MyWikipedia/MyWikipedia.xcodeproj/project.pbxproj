@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		600EB7302996908500387AD5 /* MyWikipediaViewModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyWikipediaViewModel; path = ../../Modules/MyWikipediaViewModel; sourceTree = "<group>"; };
 		608DA01529968EFC003452EA /* MyWikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		608DA01829968EFC003452EA /* MyWikipediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWikipediaApp.swift; sourceTree = "<group>"; };
 		608DA01A29968EFC003452EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,9 +34,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600EB72F2996908500387AD5 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				600EB7302996908500387AD5 /* MyWikipediaViewModel */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		608DA00C29968EFC003452EA = {
 			isa = PBXGroup;
 			children = (
+				600EB72F2996908500387AD5 /* Packages */,
 				608DA01729968EFC003452EA /* MyWikipedia */,
 				608DA01629968EFC003452EA /* Products */,
 			);
